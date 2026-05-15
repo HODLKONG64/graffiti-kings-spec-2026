@@ -1,102 +1,81 @@
-**SPARK VOICE LISTENING MODE – New Feature Spec**
+**SPARK VOICE LISTENING MODE – Updated with Smart Filter + Personal Wiki**
 
-**Feature Name:** SPARK Ears (Voice Context + Dictaphone)
+**Feature Name:** SPARK Ears (Voice Context + Dictaphone + Weighted Wiki)
 
-**Tagline:** “The more I hear, the better I can help.”
-
----
-
-### **Why This Feature Exists**
-
-Two powerful use cases:
-
-**1. Learning Mode (Context Enrichment)**
-- SPARK listens to your phone’s microphone (with permission) to understand your world better.
-- Learns your habits, interests, environment, and energy levels.
-- Uses this to give more relevant, personalized suggestions.
-- Example: Hears you talking about street art in Bristol → suggests local walls, Bristol-specific lore, or nearby events.
-
-**2. Dictaphone Mode (Audio Expansion)**
-- Record voice notes, YouTube clips, conversations, or ideas.
-- Ask SPARK to expand, analyze, or turn it into content.
-- Example: Record a 30-second YouTube clip about a new trend → SPARK transcribes it and suggests 5 guerrilla campaign ideas based on it.
+**Tagline:** “I only keep what helps us win.”
 
 ---
 
-### **Core Controls (User-Facing)**
+### **Core Intelligence Upgrade: Smart Negative Filter**
 
-**Main Toggle:**
-- SPARK Listening: **On / Off** (big, clear switch)
+**What it does:**
+- Automatically detects and filters negative, toxic, irrelevant, or low-value content from recordings.
+- Only extracts **key signals** that can help the user’s mission (campaign ideas, trends, emotional state, location hints, creative sparks).
+- Ignores complaints, negativity, filler talk, or unrelated conversations.
 
-**Granular Permissions (when On):**
-- Always listening (background)
-- Only when app is open
-- Only when I tap the mic button (manual dictaphone mode)
-- Never listen to calls or private conversations (hardcoded filter)
+**How it works:**
+1. Audio is transcribed locally (or cloud if user enables higher accuracy).
+2. SPARK runs a smart filter:
+   - Removes negative language, complaints, toxicity
+   - Extracts only mission-relevant signals (ideas, trends, energy, location, creative sparks)
+   - Assigns weight/importance score to each signal
+3. Only the filtered, weighted insights are stored in the **Personal Weighted Wiki**
 
-**Privacy First:**
-- All audio is processed locally when possible
-- Transcripts are stored encrypted on device
-- User can delete all voice data with one tap
-- No audio is ever sent to servers without explicit consent
-- Clear indicator (red dot or icon) when listening is active
-
----
-
-### **How It Works**
-
-**Learning Mode:**
-- SPARK periodically samples audio (every 5–10 mins when active)
-- Uses on-device speech-to-text (local LLM)
-- Extracts high-level context only (topics, mood, location hints)
-- Never stores full conversations
-- Feeds into Living Brain for better personalization
-
-**Dictaphone Mode:**
-- User taps mic icon → records audio
-- SPARK transcribes + analyzes
-- User can ask:
-  - “Expand this into 5 campaign ideas”
-  - “Turn this into a poster slogan”
-  - “What’s the trend here?”
-  - “Make this into lore for my universe”
-- Results appear instantly in chat with SPARK
+**User Experience:**
+- When user asks “Play back what you heard”:
+  - SPARK plays the filtered version only
+  - Confirms: “I filtered out the noise and kept only the signals that help us win. Here’s what I picked up…”
+  - Shows key signals with confidence scores
 
 ---
 
-### **SPARK Dialogue Examples**
+### **Personal Weighted Wiki System**
 
-**Learning Mode Active:**
-- “I noticed you’re in Bristol a lot. Want me to suggest some local walls and events?”
-- “You’ve been talking about music lately. Want to turn that into a sound-based campaign?”
+**What it is:**
+A living, personal knowledge base that SPARK builds over time from filtered voice data + all other app activity.
 
-**Dictaphone Mode:**
-- “Got it. I heard you talking about [topic]. Want me to expand this into content or campaign ideas?”
-- “Transcribed. Here’s 5 ways we can turn this into guerrilla gold.”
+**How it works:**
+- Every filtered insight gets a **weight score** (0–100) based on relevance and usefulness
+- High-weight signals influence SPARK’s suggestions more strongly
+- Low-weight signals fade over time unless reinforced
+- User can manually boost or delete any signal
 
----
+**Examples of Weighted Signals:**
+- “User talks about Bristol street art a lot” → Weight 87 (strong local focus)
+- “User mentioned wanting to make money from drops” → Weight 72 (monetization opportunity)
+- “User gets frustrated when engagement is low” → Weight 45 (motivation trigger)
 
-### **Safety & Trust Rules (Hardcoded)**
-
-- Red indicator light/icon when listening is active
-- One-tap “Delete All Voice Data” button
-- No cloud upload without explicit user approval
-- Never listens during phone calls or sensitive moments (AI filter)
-- User can set “Do Not Listen” time windows (e.g. 10pm–6am)
-- Full transparency log: “SPARK listened for 47 minutes today. Here’s what it learned.”
-
----
-
-### **Technical Notes**
-
-- Uses on-device speech-to-text (Whisper or local LLM equivalent)
-- Falls back to cloud only if user enables “Higher Accuracy Mode”
-- Audio never leaves device unless user explicitly shares a clip with SPARK
-- Integrates with Living Brain context system
+**Benefits:**
+- SPARK becomes dramatically more accurate and personalized over time
+- User never has to repeat context
+- The more the user talks (and SPARK filters), the smarter SPARK gets
 
 ---
 
-**Status:** Ready for MVP in Phase 2 (after core features are stable)
+### **Privacy & Trust (Hardened)**
 
-**User Benefit:**
-This turns SPARK from a reactive assistant into a truly proactive, context-aware partner that understands your world without you having to explain everything every time.
+- All filtering happens locally when possible
+- User can see exactly what SPARK kept vs filtered
+- One-tap “Clear All Wiki Data” button
+- Full transparency: “Today SPARK kept 12 signals and filtered out 47 irrelevant ones.”
+- No negative or toxic content is ever stored
+
+---
+
+### **SPARK Dialogue Examples (Updated)**
+
+**After recording:**
+- “Got it. I filtered out the noise and kept 7 signals that can help us win. Want to hear them?”
+- “I heard you talking about [topic]. I kept the key ideas and filtered the rest. Here’s what I’m adding to your Personal Wiki.”
+
+**When playing back:**
+- “Here’s the filtered version. I removed the negativity and kept only the signals that help the mission. Want me to expand any of them?”
+
+**When suggesting based on Wiki:**
+- “Based on what you’ve been talking about lately, I think we should focus on [weighted signal]. Want to turn that into a campaign?”
+
+---
+
+**Status:** Ready for MVP
+
+This upgrade turns SPARK from a helpful assistant into a true **personal intelligence partner** that learns your world, filters the noise, and only keeps what helps you win.
