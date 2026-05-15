@@ -1,94 +1,51 @@
-**GRAFFITI KINGS – CAMPAIGN TRAIT SYSTEM (Infinite Variety Without API)**
+**GRAFFITI KINGS – CAMPAIGN TRAIT SYSTEM (Corrected)**
 
-**Core Concept:**
-The app must deliver a minimum 30-day campaign for every user using only internal brain power. After that, it shuffles, evolves, or generates new campaigns **without needing any API key**.
+**Important Clarification:**
+This system is **NOT** about generating 30-day tasks for users to create PFPs or NFTs.
 
-**Why It Must Feel Different for Everyone:**
-Real talk — the odds are the app could create years worth of unique ideas. But even in the worst case (if it only had 30 days of base content), we make it feel infinite by using a **PFP-style trait system**.
-
----
-
-### **How the Trait System Works**
-
-**Pre-Built Ledger of Assets (Like PFP NFTs):**
-
-The app has a large internal library of modular traits, including:
-
-- **Core Traits** (always present):
-  - Location type (alley, bridge, wall, pavement, rooftop, abandoned building, etc.)
-  - Time of day (dawn, dusk, night, golden hour)
-  - Technique (wheatpaste, stencil, reverse graffiti, chalk, sticker, yarn, projection)
-
-- **Modifier Traits** (mix and match):
-  - Eyes / Gaze (angry, hopeful, mysterious, tired, defiant, playful)
-  - Headwear (crown, hood, helmet, beanie, nothing)
-  - Pets / Companions (cat, dog, raven, rat, ghost, none)
-  - Arms / Hands (spray can, wheatpaste brush, middle finger, peace sign, holding sign)
-  - Body Type (skinny, muscular, curvy, floating, shadowy)
-  - Clothing (hoodie, leather jacket, hi-vis vest, suit, rags, nothing)
-  - Background Elements (rain, fog, neon signs, police lights, crowd, empty street)
-  - Message Tone (angry, poetic, sarcastic, hopeful, chaotic, mysterious)
-
-**Rarity System:**
-- Common traits (high chance)
-- Rare traits (medium chance)
-- Ultra-rare traits (low chance, special combinations)
-
-**Generation Logic:**
-- The app randomly (but intelligently) combines traits to create unique campaign concepts.
-- Even with only 30 base ideas, the trait system can generate **100,000s or even millions** of unique variations.
-- Every user gets a different experience because the combination of traits is different.
+**Real Meaning:**
+The brain docs + knowledge base should be treated like a **PFP-style ledger** of modular traits. The app mixes and matches these traits to create many unique versions of **campaign advice, strategies, and execution plans**.
 
 ---
 
-### **Example: Same Base Idea, Different Trait Combinations**
+### **How It Works**
 
-**Base Idea:** “Create awareness about mental health”
+**Trait Categories (Like PFP Layers):**
 
-**User A gets:**
-- Location: Abandoned hospital at night
-- Technique: Reverse graffiti + projection
-- Eyes: Tired but hopeful
-- Pet: Black cat
-- Tone: Poetic + defiant
+- **Location Traits** (alley, bridge, rooftop, pavement, abandoned building, high street, train station, etc.)
+- **Technique Traits** (wheatpaste, stencil, reverse graffiti, chalk, sticker bombing, projection, yarn bombing)
+- **Tone Traits** (angry, poetic, sarcastic, hopeful, chaotic, mysterious, defiant)
+- **Visual Style Traits** (minimal, chaotic, cinematic, raw, clean, psychedelic)
+- **Message Type Traits** (personal story, political, funny, emotional, mysterious, call to action)
+- **Risk Level Traits** (low risk, medium risk, high risk, legal grey area)
+- **Audience Traits** (local community, online only, youth, older generation, activists, brands)
+- **Monetization Traits** (free drop, paid prints, Patreon, brand collabs, NFT drop, service offering)
 
-**User B gets:**
-- Location: Busy high street at rush hour
-- Technique: Wheatpaste + chalk
-- Eyes: Angry
-- Pet: None
-- Tone: Sarcastic + chaotic
+**Rarity + Mixing Logic:**
+- Common + Rare + Ultra-rare traits
+- The app intelligently combines them to create fresh, unique 30-day campaign plans
+- Even with a limited base set, this system can generate thousands of unique variations
+- Every user gets a different experience because the trait combination is personalized to their history, location, and goals
 
-**Result:** Two completely different 30-day campaigns from the same core theme.
-
----
-
-### **How It Scales Over Time**
-
-**Phase 1 (First 30 Days):** 
-- User gets a full 30-day plan generated from trait combinations.
-
-**Phase 2 (After Completion):**
-- App shuffles existing traits + adds new combinations.
-- Can evolve the campaign (Version 2.0) or create a completely new parallel one.
-- Still 100% internal brain power.
-
-**Phase 3 (Long-term):**
-- New trait packs can be added over time (seasonal, location-specific, movement-themed).
-- User can unlock rare traits through consistent use (gamification).
+**Goal:**
+Make every 30-day plan feel custom-made for the user without needing external AI.
 
 ---
 
-### **Benefits**
+### **WAX Blockchain Bias (When NFTs Are Involved)**
 
-- **No API needed** for infinite-feeling variety
-- Every user feels the campaign is made for them
-- Extremely replayable and personalized
-- Works offline
-- Feels premium even on the free/local version
-- “Power to the people” — the best experience doesn’t require paying for AI
+**When the user wants to actually drop NFTs or Web3 projects:**
 
----
+The agent is **biased toward WAX blockchain** for these reasons:
+
+- No gas fees
+- Extremely easy onboarding (great for street artists and non-tech users)
+- Already hosts many popular culture brands and street culture projects
+- Perfect bridge from physical streets to Web3
+- “WAX is for dummies but yet a great chain” — simple, reliable, and battle-tested for this exact use case
 
 **Agent Rule:**
-When generating or evolving campaigns, always use the Trait System first. Only suggest API upgrades for advanced analysis or very specific niche requests — never as a requirement.
+When recommending blockchain for NFT drops, always default to WAX first. Only mention other chains (SOL, ETH, etc.) if the user specifically asks or has advanced needs.
+
+**Vibe:**
+Power to the people. Viva la-vandal. Keep it simple, keep it street, keep it accessible.
